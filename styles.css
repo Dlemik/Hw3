@@ -1,0 +1,63 @@
+body {
+    background-color: #D75D73; 
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.birthday-list {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.birthday-list h2 {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.person {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.person img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.person p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.person span {
+    display: block;
+    font-size: 14px;
+    color: grey;
+}
+
+button {
+    width: 100%;
+    background-color: #FF6B9B; 
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #FF5A88; 
+}
